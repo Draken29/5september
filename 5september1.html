@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>44</title>
+    <style>
+        /*@media screen {
+            body{
+                background-color: aqua;
+            }
+            h1{
+                color: blue;
+            }
+        }*/
+       /* @media print{
+            body{
+                background-color: aqua;
+            }
+            h1{
+                color: blue;
+            }
+        }*/
+        nav{
+            display: flex;
+            justify-content: center;
+        }
+        nav a{
+            width: 15%;
+            background-color: yellow;
+            padding: 10px;
+            margin: 4px;
+            color: black;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+        }
+            @media only screen and (max-width:700px) and (min-width:400px){
+                h1{
+                    background-color: brown;
+                    text-align: center;
+                    padding: 20px;
+                    color:palevioletred;
+                }
+            
+        }
+        @media  {
+            body{
+                background-color: aqua;
+            }
+        }
+        @media (max-width:620px){
+            nav{
+                display: block;
+                text-align: center;
+            }
+            nav a{
+                display: block;
+                padding: 10px 0px;
+                margin: 10px 0px;
+                width: 100%;
+            }
+            .four{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--<h1>hello</h1>-->
+   
+    <nav>
+        <img src="draken.jpg" height="50"/>
+        <a class="1">link1</a>
+        <a class="2">link2</a>
+        <a class="3">link3</a>
+        <a class="four">link4</a>
+    </nav>
+</body>
+</html>
